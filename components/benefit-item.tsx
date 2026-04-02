@@ -1,6 +1,7 @@
 interface BenefitItemProps {
   label: string;
-  checkColor?: string; 
+  checkColor?: string;
+  checkColorHex?: string;
 }
 
 export function BenefitItem({

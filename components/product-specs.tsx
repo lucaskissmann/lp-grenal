@@ -7,10 +7,15 @@ import {
   Monitor,
   Zap,
   Layers,
+	Sparkles,
 } from "lucide-react";
+import { GiTripleScratches } from "react-icons/gi";
+import { MdFingerprint } from "react-icons/md";
+import { TbUvIndex } from "react-icons/tb";
 
 interface ProductSpecsProps {
   accentColor: string;       
+  roundedColor: string;       
   badgeBorderColor: string;  
   badgeBgColor: string;      
   badgeTextColor: string;    
@@ -20,13 +25,15 @@ interface ProductSpecsProps {
   residualLabel: string;     
 }
 
+const iconClass = "w-4 h-4";
+
 const specs = [
-  { iconSrc: "/icons/reflexivo.png", label: "Reflexos" },
-  { iconSrc: "/icons/cocar-arranhao.png", label: "Arranhões" },
-  { iconSrc: "/icons/mancha-dedo.png", label: "Manchas" },
-  { iconSrc: "/icons/gotas-de-agua.png", label: "Água" },
-  { iconSrc: "/icons/raios.png", label: "Raios UV" },
-  { iconSrc: "/icons/monitorar-tablet-e-smartphone.png", label: "Proteção de Telas" },
+  { icon: <Sparkles className={iconClass} />, label: "Reflexos" },
+  { icon: <GiTripleScratches className={iconClass} />, label: "Arranhões" },
+  { icon: <MdFingerprint className={iconClass} />, label: "Manchas" },
+  { icon: <Droplets className={iconClass} />, label: "Água" },
+  { icon: <TbUvIndex className={iconClass} />, label: "Raios UV" },
+  { icon: <Monitor className={iconClass} />, label: "Proteção de Telas" },
 ];
 
 const benefits = [
@@ -43,6 +50,7 @@ const benefits = [
 
 export function ProductSpecs({
   accentColor,
+	roundedColor,
   badgeBorderColor,
   badgeBgColor,
   badgeTextColor,
@@ -58,7 +66,7 @@ export function ProductSpecs({
       <span
         className={`inline-flex items-center gap-2 px-3 sm:px-4 py-1.5 rounded-full border text-xs font-semibold tracking-widest uppercase ${pillBgColor} ${pillBorderColor} ${pillTextColor}`}
       >
-        <span className={`w-2 h-2 rounded-full ${accentColor.replace("text-", "bg-")}`} />
+        <span className={`w-2 h-2 rounded-full ${roundedColor.replace("text-", "bg-")}`} />
         {residualLabel}
       </span>
 
@@ -67,7 +75,7 @@ export function ProductSpecs({
         {specs.map((s) => (
           <SpecBadge
             key={s.label}
-            iconSrc={s.iconSrc}
+            icon={s.icon}
             label={s.label}
             borderColor={badgeBorderColor}
             bgColor={badgeBgColor}
@@ -78,7 +86,7 @@ export function ProductSpecs({
 
       {/* Separador */}
       <div className="border-t border-white/10 pt-4">
-        <p className="text-xs sm:text-md text-white/40 uppercase tracking-widest mb-3">Benefícios</p>
+        <p className="text-sm sm:text-md text-white/40 uppercase tracking-widest mb-3">Benefícios</p>
         <ul className="space-y-2.5">
           {benefits.map((b) => (
             <BenefitItem key={b} label={b} checkColor={accentColor} />
