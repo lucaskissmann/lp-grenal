@@ -36,17 +36,21 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="py-24 text-center px-6">
-        <h2 className="text-3xl font-bold mb-8 text-white">
-          O lançamento que une paixão e tecnologia
-        </h2>
+      <section className="py-24 text-center px-6 text-white">
+				<h2 className="text-2xl md:text-3xl font-bold mb-8">
+					O lançamento que une paixão e tecnologia
+				</h2>
 
-        <div className="max-w-4xl mx-auto rounded-xl overflow-hidden border border-white/10">
-          <video controls className="w-full">
-            <source src="/horizontal.mp4" />
-          </video>
-        </div>
-      </section>
+				<div className="max-w-4xl mx-auto rounded-xl overflow-hidden border border-white/10 aspect-video">
+					<iframe
+						src="https://www.youtube.com/embed/7RerhgMmSFA"
+						title="O lançamento que une paixão e tecnologia"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowFullScreen
+						className="w-full h-full"
+					/>
+				</div>
+			</section>
     </main>
   );
 }

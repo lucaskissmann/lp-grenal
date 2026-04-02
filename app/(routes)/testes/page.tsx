@@ -60,28 +60,6 @@ export default function Home() {
 				<p className="">
 					O tratamento antirreflexo é essencial para quem usa óculos no dia a dia. Ele reduz reflexos indesejados, melhora a visão noturna e o conforto em frente a telas. Agora, a Forla une essa tecnologia de ponta à paixão pelo futebol gaúcho — com reflexos que identificam o seu clube do coração.
 				</p>
-					<div className="relative w-1/2 h-full">
-						<Image
-							src="/torcida-gremio-enorme.jpg"
-							alt="Torcida Inter"
-							width={400}
-							height={700}
-							className="object-cover"
-						/>
-	
-						{/* overlay vermelho */}
-						<div className="absolute inset-0 bg-[#e30513]/30" />
-	
-						{/* fade pro branco */}
-						<div className="absolute left-0 top-0 h-full w-32 bg-gradient-to-l from-transparent to-white" />
-					</div>
-       		<Image
-						src="/torcida-gremio.jpg"
-						alt="Óculos Grêmio"
-						width={900}
-						height={500}
-						className="rounded-3xl drop-shadow-[0_0_40px_rgba(255,255,255,0.2)] md:self-start md:ml-10"
-					/>
 			</section>
 
       {/* VÍDEO */}
