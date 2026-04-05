@@ -80,8 +80,8 @@ export default function Home() {
         </section>
 
         {/* ── SEÇÃO 3: texto esquerda, imagem direita ── */}
-        <section className="py-14 md:py-24 px-6 lg:px-10 max-w-6xl mx-auto w-full">
-          <div className="grid md:grid-cols-2 gap-14 items-center">
+        <section className="py-14 md:py-24 px-6 lg:px-10">
+          <div className="grid md:grid-cols-2 gap-14 items-center max-w-6xl mx-auto w-full">
             <div>
               <span className="text-[#A8884A] tracking-widest text-sm uppercase">
                 Tecnologia Exclusiva
@@ -114,8 +114,8 @@ export default function Home() {
         </section>
 
         {/* ── SEÇÃO 4: imagem esquerda, texto direita ── */}
-        <section className="py-14 md:py-24 px-6 lg:px-10 max-w-6xl mx-auto w-full">
-          <div className="grid md:grid-cols-2 gap-14 items-center">
+        <section className="py-14 md:py-24 px-6 lg:px-10">
+          <div className="grid md:grid-cols-2 gap-14 items-center max-w-6xl mx-auto w-full">
             <div className="relative h-[260px] md:h-[460px] lg:h-[520px] rounded-2xl overflow-hidden order-2 md:order-1">
               <Image
                 src="/gremio-torcedor.png"
