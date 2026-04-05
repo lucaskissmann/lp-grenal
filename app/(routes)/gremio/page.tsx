@@ -50,7 +50,7 @@ export default function Gremio() {
 
               <ProductSpecs
                 accentColor="text-blue-400"
-                roundedColor="text-blue-500"
+                roundedColor="#0093dd"
                 badgeBorderColor="border-blue-400/40"
                 badgeBgColor="bg-blue-500/30"
                 badgeTextColor="text-blue-300"

@@ -50,7 +50,7 @@ export default function Inter() {
 
               <ProductSpecs
                 accentColor="text-red-400"
-                roundedColor="text-red-500"
+                roundedColor="#e30513"
                 badgeBorderColor="border-red-400/40"
                 badgeBgColor="bg-red-500/30"
                 badgeTextColor="text-red-300"

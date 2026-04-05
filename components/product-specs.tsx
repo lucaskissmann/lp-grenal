@@ -65,7 +65,7 @@ export function ProductSpecs({
       <span
         className={`inline-flex items-center gap-2 px-3 sm:px-4 py-1.5 rounded-full border text-xs font-semibold tracking-widest uppercase ${pillBgColor} ${pillBorderColor} ${pillTextColor}`}
       >
-        <span className={`w-2 h-2 rounded-full ${roundedColor.replace("text-", "bg-")}`} />
+        <span className={`w-2 h-2 rounded-full bg-[${roundedColor}]`} />
         {residualLabel}
       </span>
 
