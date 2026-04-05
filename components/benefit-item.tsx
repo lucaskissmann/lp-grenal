@@ -9,7 +9,7 @@ export function BenefitItem({
   checkColor = "text-white",
 }: BenefitItemProps) {
   return (
-    <li className="flex items-center gap-3 text-md sm:text-xl text-white/75">
+    <li className="flex items-center gap-3 text-sm sm:text-base text-white/75">
       <svg
         className={`w-5 h-5 shrink-0 ${checkColor}`}
         viewBox="0 0 24 24"

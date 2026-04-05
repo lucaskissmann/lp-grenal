@@ -14,7 +14,7 @@ const Navbar = ({ variant = "grenal" }: NavbarProps) => {
   return (
     <div className="w-full">
 
-      <div className="relative w-full overflow-hidden h-36 sm:h-64 md:h-72">
+      <div className="relative w-full overflow-hidden h-24 sm:h-44 md:h-52">
         <div className="absolute inset-0 flex">
 
           {variant !== "inter" && (
@@ -65,11 +65,10 @@ const Navbar = ({ variant = "grenal" }: NavbarProps) => {
         {/* DESKTOP */}
         <div className="hidden sm:flex items-center px-6 lg:px-8">
 
-          {/* Início */}
           <Link
             href="/"
             className="
-              relative px-8 py-4 text-base font-medium tracking-wide text-white/70
+              relative px-5 py-3 text-sm font-medium tracking-wide text-white/70
               transition-all duration-200 ease-out
               hover:text-white hover:bg-white/5
               active:bg-white/10 active:scale-95
@@ -81,11 +80,10 @@ const Navbar = ({ variant = "grenal" }: NavbarProps) => {
             Início
           </Link>
 
-          {/* Imortal Tricolor */}
           <Link
             href="/gremio"
             className="
-              relative px-5 py-4 text-base font-medium tracking-wide text-white/70
+              relative px-5 py-3 text-sm font-medium tracking-wide text-white/70
               transition-all duration-200 ease-out
               hover:text-white hover:bg-white/5
               active:bg-white/10 active:scale-95
@@ -97,11 +95,10 @@ const Navbar = ({ variant = "grenal" }: NavbarProps) => {
             Imortal Tricolor
           </Link>
 
-          {/* Colorado */}
           <Link
             href="/inter"
             className="
-              relative px-5 py-4 text-base font-medium tracking-wide text-white/70
+              relative px-5 py-3 text-sm font-medium tracking-wide text-white/70
               transition-all duration-200 ease-out
               hover:text-white hover:bg-white/5
               active:bg-white/10 active:scale-95
@@ -115,7 +112,7 @@ const Navbar = ({ variant = "grenal" }: NavbarProps) => {
 
         </div>
 
-        <div className="flex sm:hidden items-center justify-end px-4 py-3">
+        <div className="flex sm:hidden items-center justify-end px-4 py-2">
           <MenuToggle />
         </div>
 

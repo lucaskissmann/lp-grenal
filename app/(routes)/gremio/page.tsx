@@ -10,8 +10,8 @@ export default function Gremio() {
       <NavbarTeste variant="gremio" />
       <main className="text-white">
 
-        <section className="min-h-screen flex items-center px-6">
-          <div className="grid md:grid-cols-2 gap-16 items-center max-w-6xl mx-auto w-full">
+        <section className="min-h-screen flex items-center px-6 my-12">
+          <div className="grid md:grid-cols-2 gap-16 items-center max-w-5xl mx-auto w-full">
 
             <div>
               <span className="text-sm tracking-widest uppercase text-blue-400/60 mb-3 block">
@@ -43,7 +43,7 @@ export default function Gremio() {
                 </div>
               </div>
 
-              <p className="text-sm sm:text-lg text-neutral-400 mb-10 leading-relaxed">
+              <p className="text-xs sm:text-base text-neutral-400 mb-10 leading-relaxed">
                 Um produto feito para quem carrega o orgulho imortal em cada detalhe.
                 Tecnologia de ponta com a identidade do seu clube.
               </p>
