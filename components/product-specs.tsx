@@ -42,7 +42,6 @@ const benefits = [
   "Muito mais transparência",
   "Lente hidrofóbica",
   "Muito mais fácil de limpar",
-  "Residual colorido inovador",
   "Proteção UVA e UVB",
   "Altamente resistente a arranhões",
   "Maior resistência térmica",

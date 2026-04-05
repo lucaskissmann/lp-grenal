@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
-import { Montserrat } from "next/font/google";
+import { Montserrat, Geist } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/navbar";
-import NavbarTeste from "@/components/navbar-teste";
+import Footer from "@/components/footer";
+import { cn } from "@/lib/utils";
+
+const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 
 export const montserrat = Montserrat({
   variable: "--font-montserrat",
@@ -21,21 +23,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`h-full antialiased`}>
+    <html lang="en" className={cn("h-full", "antialiased", "font-sans", geist.variable)}>
       <body className="min-h-full flex flex-col">
-
-        <div className="fixed inset-0 -z-10 bg-gradient-to-br from-black via-neutral-900 to-black" />
-
-        {/* Luz azul */}
-        <div className="fixed top-20 left-[-100px] w-[400px] h-[400px] bg-blue-500 blur-[150px] opacity-30 mix-blend-screen pointer-events-none"></div>
-        {/* Luz vermelha */}
-        <div className="fixed bottom-20 right-[-100px] w-[400px] h-[400px] bg-red-600 blur-[150px] opacity-30 mix-blend-screen pointer-events-none"></div>
-        {/* Conteúdo do app */}
         <div className="relative z-10 flex flex-col min-h-screen">
-          <NavbarTeste />
           {children}
+          <Footer />
         </div>
-
       </body>
     </html>
   );
