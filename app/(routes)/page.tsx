@@ -11,12 +11,12 @@ export default function Home() {
 
         {/* HERO */}
         <section className="flex items-center px-6 pt-10 sm:pt-20 pb-12">
-          <div className="grid md:grid-cols-[3fr_2fr] gap-10 items-center max-w-6xl w-full mx-auto">
+          <div className="grid md:grid-cols-[3fr_2fr] gap-6 lg:gap-10 items-center max-w-6xl w-full mx-auto">
             <div className="text-center md:text-left">
               <h3 className="text-[#A8884A] tracking-widest text-sm mb-3">
                 TRATAMENTO ANTIRREFLEXO EXCLUSIVO
               </h3>
-              <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
+              <h1 className="text-2xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight">
                 Lentes que carregam a{" "}
                 <span className="text-[#B61918] drop-shadow-[0_0_15px_rgba(255,0,0,0.6)]">
                   paixão colorada
@@ -30,20 +30,20 @@ export default function Home() {
                 Tecnologia premium de antirreflexo desenvolvida especialmente para os torcedores gaúchos. Uma lente para cada coração.
               </p>
             </div>
-            <div className="flex flex-row items-start justify-center gap-3 md:gap-6 mt-8 md:mt-0">
+            <div className="flex flex-row items-start justify-center gap-3 lg:gap-6 mt-8 md:mt-0">
               <Image
                 src="/gremio-familia.png"
                 alt="Familia com Óculos Grêmio"
                 width={260}
                 height={260}
-                className="rounded-3xl drop-shadow-[0_0_40px_rgba(255,255,255,0.2)] w-[130px] md:w-[210px]"
+                className="rounded-3xl drop-shadow-[0_0_40px_rgba(255,255,255,0.2)] w-[130px] md:w-[150px] lg:w-[210px]"
               />
               <Image
                 src="/inter-familia.png"
                 alt="Familia com Óculos Inter"
                 width={260}
                 height={260}
-                className="rounded-3xl drop-shadow-[0_0_40px_rgba(255,255,255,0.2)] w-[130px] md:w-[210px] mt-10 md:mt-16"
+                className="rounded-3xl drop-shadow-[0_0_40px_rgba(255,255,255,0.2)] w-[130px] md:w-[150px] lg:w-[210px] md:mt-10 lg:mt-16"
               />
             </div>
           </div>
