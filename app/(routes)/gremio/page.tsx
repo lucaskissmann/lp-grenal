@@ -2,6 +2,7 @@ import Image from "next/image";
 import { ProductSpecs } from "@/components/product-specs";
 import NavbarTeste from "@/components/navbar";
 import Background from "@/components/background";
+import Link from "next/link";
 
 export default function Gremio() {
   return (
@@ -60,9 +61,11 @@ export default function Gremio() {
                 residualLabel="Residual Azul Inovador"
               />
 
-              <button className="mt-8 px-5 sm:px-6 py-2.5 sm:py-3 bg-blue-500/30 hover:bg-[#0093dd] rounded-lg transition-colors duration-200 font-medium text-sm sm:text-base tracking-wide">
-                Saiba Mais
-              </button>
+              <Link href="/redirect">
+                <button className="cursor-pointer mt-8 px-5 sm:px-6 py-2.5 sm:py-3 bg-blue-500/30 hover:bg-[#0093dd] rounded-lg transition-colors duration-200 font-medium text-sm sm:text-base tracking-wide">
+                  Saiba Mais
+                </button>
+              </Link>
             </div>
 
             <div className="relative mb-4">
