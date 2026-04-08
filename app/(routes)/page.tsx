@@ -9,7 +9,6 @@ export default function Home() {
       <Navbar variant="grenal" />
       <main className="flex flex-col text-white">
 
-        {/* HERO */}
         <section className="flex items-center px-6 pt-10 sm:pt-20 pb-12">
           <div className="grid md:grid-cols-[3fr_2fr] gap-6 lg:gap-10 items-center max-w-6xl w-full mx-auto">
             <div className="text-center md:text-left">
@@ -68,12 +67,11 @@ export default function Home() {
               <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mt-3 mb-5 leading-tight">
                 Forla & Brum Signature inovam com Lentes Licenciadas da Dupla Grenal
               </h2>
+              <p className="text-white/60 leading-relaxed text-sm lg:text-base mb-4">
+                Já pensou em carregar o amor pelo seu clube estampado no seu olhar? A união perfeita entre a mais alta tecnologia visual e a paixão que move o Rio Grande do Sul acaba de chegar: conheça as Lentes Grenal.
+              </p>
               <p className="text-white/60 leading-relaxed text-sm lg:text-base">
-                O mercado óptico brasileiro ganha um novo vetor de crescimento focado na
-                hiperpersonalização e no marketing ideológico. O laboratório Forla & Brum
-                anuncia o lançamento da sua linha exclusiva de lentes oftalmológicas
-                licenciadas da dupla Grenal — desenvolvidas para gerar alto valor agregado
-                e forte apelo emocional.
+                Mais do que um item de saúde visual, estas lentes são um símbolo de identidade para quem vive e respira as cores do Grêmio ou do Internacional.
               </p>
             </div>
           </div>
@@ -87,18 +85,13 @@ export default function Home() {
                 Tecnologia Exclusiva
               </span>
               <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mt-3 mb-5 leading-tight">
-                Marca d'água ativada por vapor
+                O Segredo Revelado pelo Vapor
               </h2>
-              <p className="text-white/60 leading-relaxed text-sm lg:text-base mb-4">
-                Ao entrar em contato com a respiração ou vapor d'água, a lente revela o
-                escudo do clube escolhido pelo paciente — um poderoso argumento de vendas
-                no balcão.
+              <p className="text-white/60 leading-relaxed text-sm lg:text-base">
+                O grande destaque é uma tecnologia surpreendente e exclusiva: a marca d'água inteligente. O escudo do seu time do coração fica invisível no dia a dia, mas basta o contato com o vapor d'água ou com a sua respiração para que o emblema do seu clube apareça magicamente na lente.
               </p>
               <p className="text-white/60 leading-relaxed text-sm lg:text-base">
-                O portfólio conta ainda com 15 camadas de antirreflexo com cor residual
-                representativa de cada time, proteção contra a luz azul nociva, tratamento
-                hidrofóbico e proteção UVA/UVB, entregando performance visual premium
-                aliada à identidade do torcedor.
+                É o detalhe que faltava para mostrar que sua lealdade não tem limites.
               </p>
             </div>
             <div className="relative h-[260px] md:h-[460px] lg:h-[520px] rounded-2xl overflow-hidden">
@@ -127,22 +120,32 @@ export default function Home() {
             </div>
             <div className="order-1 md:order-2">
               <span className="text-[#A8884A] tracking-widest text-sm uppercase">
-                Oportunidade de Negócios
+                Tecnologia Premium para sua Visão
               </span>
               <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mt-3 mb-5 leading-tight">
-                Política Comercial Exclusiva para Lojas Autorizadas
+                O melhor para a saúde dos seus olhos
               </h2>
-              <p className="text-white/60 leading-relaxed text-sm lg:text-base mb-4">
-                Para proteger a margem de lucro do varejista e garantir o posicionamento
-                premium das lentes, a Forla & Brum estruturaram uma política comercial
-                disruptiva baseada em certificação de canais.
-              </p>
               <p className="text-white/60 leading-relaxed text-sm lg:text-base">
-                O produto é restrito a uma rede de Lojas Autorizadas. A taxa de
-                habilitação de R$ 799,00 contempla material de PDV imersivo,
-                direcionamento de tráfego pelo site oficial e capacitação técnica
-                obrigatória via Forla Academy.
+                Além do orgulho de torcedor, você garante o que há de melhor para a saúde dos seus olhos:
               </p>
+              <ul className="text-white/60 leading-relaxed text-sm lg:text-base space-y-3">
+                <li className="flex items-start gap-2">
+                  <span className="text-[#A8884A] mt-1">✦</span>
+                  <span><span className="text-white font-medium">Identidade nas Cores:</span> 15 camadas de antirreflexo com o brilho residual que representa o seu time.</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-[#A8884A] mt-1">✦</span>
+                  <span><span className="text-white font-medium">Proteção Total:</span> Bloqueio contra a luz azul nociva (ideal para quem usa telas) e proteção completa contra raios UVA/UVB.</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-[#A8884A] mt-1">✦</span>
+                  <span><span className="text-white font-medium">Conforto Visual:</span> Tratamento hidrofóbico que facilita a limpeza e mantém sua visão sempre nítida.</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-[#A8884A] mt-1">✦</span>
+                  <span><span className="text-white font-medium">Produto Oficial:</span> Ao adquirir suas lentes, parte da receita é revertida diretamente para o seu clube, fortalecendo ainda mais o seu time.</span>
+                </li>
+              </ul>
             </div>
           </div>
         </section>
@@ -150,20 +153,16 @@ export default function Home() {
         {/* ── SEÇÃO 6: Texto final centralizado ── */}
         <section className="py-14 md:py-24 px-6 lg:px-10 max-w-5xl mx-auto w-full text-center">
           <span className="text-[#A8884A] tracking-widest text-sm uppercase">
-            Forla Academy
+            Onde encontrar?
           </span>
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mt-3 mb-5 leading-tight">
-            Certificação que garante excelência no atendimento
+            Confira onde você pode encontrar as Lentes Grenal
           </h2>
           <p className="text-white/60 leading-relaxed text-sm lg:text-base mb-4">
-            O modelo exige que pelo menos 50% da equipe de vendas da loja seja treinada e
-            aprovada com nota mínima 8 na plataforma Forla Academy — garantindo que o
-            argumento de venda seja padronizado e focado nos benefícios reais da lente.
+            Para garantir a exclusividade e a qualidade técnica, as Lentes Grenal não estão em qualquer lugar. Elas são encontradas apenas em Lojas Autorizadas, onde a equipe de vendas passou por um rigoroso treinamento técnico para oferecer a melhor experiência para você, torcedor.
           </p>
           <p className="text-white/60 leading-relaxed text-sm lg:text-base">
-            Em alinhamento às tendências de responsabilidade corporativa, parte da receita
-            de cada par de lentes vendido é revertida diretamente aos clubes, fortalecendo
-            o marketing de comunidade.
+            Procure o selo de loja autorizada e leve a paixão pelo seu clube para o seu dia a dia com a tecnologia Forla
           </p>
         </section>
 
