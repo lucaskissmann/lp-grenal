@@ -1,6 +1,7 @@
 import Background from "@/components/background";
 import Navbar from "@/components/navbar";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -164,6 +165,11 @@ export default function Home() {
           <p className="text-white/60 leading-relaxed text-sm lg:text-base">
             Procure o selo de loja autorizada e leve a paixão pelo seu clube para o seu dia a dia com a tecnologia Forla
           </p>
+          <Link href="/redirect">
+            <button className="cursor-pointer mt-10 px-10 py-2.5 bg-[#222F3F] hover:bg-[#2e3f54] text-white/70 hover:text-white text-sm font-medium tracking-wide rounded-lg transition-colors duration-200">
+              Saiba Mais
+            </button>
+          </Link>
         </section>
 
         {/* ── VÍDEO ── */}
