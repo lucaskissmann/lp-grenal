@@ -32,14 +32,14 @@ export default function Home() {
             </div>
             <div className="flex flex-row items-start justify-center gap-3 lg:gap-6 mt-8 md:mt-0">
               <Image
-                src="/gremio-familia.png"
+                src="/gremio_familia.jpeg"
                 alt="Familia com Óculos Grêmio"
                 width={260}
                 height={260}
                 className="rounded-3xl drop-shadow-[0_0_40px_rgba(255,255,255,0.2)] w-[130px] md:w-[150px] lg:w-[210px]"
               />
               <Image
-                src="/inter-familia.png"
+                src="/inter_familia.jpeg"
                 alt="Familia com Óculos Inter"
                 width={260}
                 height={260}
@@ -97,10 +97,10 @@ export default function Home() {
             </div>
             <div className="relative h-[260px] md:h-[460px] lg:h-[520px] rounded-2xl overflow-hidden">
               <Image
-                src="/lentes-grenal.png"
+                src="/CAPA.jpeg"
                 fill
                 alt="Detalhe lente com marca d'água"
-                className="object-cover object-top"
+                className="object-cover object-[center_37%]"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
             </div>
@@ -136,7 +136,7 @@ export default function Home() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-[#A8884A] mt-1">✦</span>
-                  <span><span className="text-white font-medium">Proteção Total:</span> Bloqueio contra a luz azul nociva (ideal para quem usa telas) e proteção completa contra raios UVA/UVB.</span>
+                  <span><span className="text-white font-medium">Proteção Total:</span> Tela Safe (proteção contra telas) e proteção completa contra raios UVA/UVB.</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-[#A8884A] mt-1">✦</span>
