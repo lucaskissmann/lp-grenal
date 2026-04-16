@@ -37,14 +37,16 @@ const specs = [
 ];
 
 const benefits = [
-  "Marca d'água na lente",
+  "Altamente resistente a arranhões",
+  "ID Fog - Marca d'água na lente",
+  "Redução de embaçamento",
   "15 camadas de antirreflexo",
   "Muito mais transparência",
   "Lente hidrofóbica",
   "Muito mais fácil de limpar",
   "Proteção UVA e UVB",
-  "Altamente resistente a arranhões",
   "Maior resistência térmica",
+  "TELASAFE - Proteção contra luz de telas"
 ];
 
 export function ProductSpecs({
